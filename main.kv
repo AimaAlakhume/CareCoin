@@ -1,0 +1,34 @@
+#: include kv/homescreen.kv
+#: include kv/loginscreen.kv
+#: include kv/signupscreen.kv
+#: include kv/charscreen.kv
+#: include kv/cardscreen.kv
+#: include kv/coinscreen.kv
+#: include kv/logdata.kv
+#: include kv/popup.kv
+
+GridLayout:
+  cols: 1
+  ScreenManager:
+    id: screen_manager
+    HomeScreen:
+      name: "home_screen"
+      id: home_screen
+    LoginScreen
+      name: "login_screen"
+      id: login_screen
+    SignupScreen
+      name: "signup_screen"
+      id: signup_screen
+		LogDataWindow
+			name: "logdata"
+			id: logdata
+		PopUp:
+			name: "popup"
+			id: popup
+    CardScreen:
+      name: "card_screen"
+      id: card_screen
+    CoinScreen:
+      name: "coin_screen"
+      id: coin_screen
