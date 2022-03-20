@@ -1,0 +1,22 @@
+<logDataWindow>:
+	info : info
+	FloatLayout:
+		Label:
+			id : info
+			size_hint : 0.8, 0.2
+			pos_hint : {"x" : 0.15, "top" : 0.8}
+			text : "Logged in successfully"
+		Button:
+			text : "Login"
+			size_hint : 0.4, 0.1
+			pos_hint : {"x" : 0.33, "top" : 0.55}
+			on_release: 
+				app.root.current = 'login'
+				root.manager.transition.direction = "down"
+		Button:
+			text : "Create new account"
+			size_hint : 0.4, 0.1
+			pos_hint : {"x" : 0.33, "top" : 0.4}
+			on_release: 
+				app.root.current = 'signup'
+				root.manager.transition.direction = "down"

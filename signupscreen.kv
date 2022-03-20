@@ -1,0 +1,39 @@
+<SignupScreen>:
+	name2 : name2
+	email : email
+	pwd : pwd
+	FloatLayout:
+		Label:
+			text : "Name "
+			size_hint : 0.2, 0.1
+			pos_hint : {"x":0.25, "top":0.9}
+		TextInput:
+			id : name2
+			multiline : False
+			size_hint : 0.3, 0.1
+			pos_hint : {"x" : 0.45, "top" : 0.9}
+		Label:
+			text : "Email "
+			size_hint : 0.2, 0.1
+			pos_hint : {"x" : 0.25, "top" : 0.7}
+		TextInput:
+			id : email
+			multiline : False
+			size_hint : 0.3, 0.1
+			pos_hint : {"x" : 0.45, "top" : 0.7}
+		Label:
+			text : "Password "
+			size_hint : 0.2, 0.1
+			pos_hint : {"x" : 0.25, "top" : 0.5}
+		TextInput:
+			id : pwd
+			multiline : False
+			size_hint : 0.3, 0.1
+			pos_hint : {"x" : 0.45, "top" : 0.5}
+		Button:
+			text : "Next"
+			size_hint : 0.3, 0.1
+			pos_hint : {"x" : 0.39, "top" : 0.28}
+			on_press :
+				root.signupbtn()
+				root.manager.transition.direction = "right"

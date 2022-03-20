@@ -1,0 +1,19 @@
+<HomeScreen>:
+  FloatLayout:
+    GridLayout:
+      pos_hint: {"top": 1, "left": 1}
+      size_hint: 1, .1
+      #5 bottom nav icons
+
+
+  Button:
+    text:
+      "Log In"
+    on_release:
+      app.change_screen("login_screen")
+  Button:
+    text:
+      "Sign Up"
+    on_release:
+      app.change_screen("signup_screen")
+
