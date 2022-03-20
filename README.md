@@ -3,10 +3,7 @@ Designed by Stivale for HackCWRU 2022
 CareCoin is an app that rounds up your daily transactions and donates them to health research and charities to create better healthcare in developing countries.
 
 ## Team Members
-Aima Alakhume
-Angela Qui
-Mario Manalu
-Nora Chamseddin
+Aima Alakhume, Angela Qui, Mario Manalu, Nora Chamseddin
 
 ## Inspiration
 Healthcare in the world's 125 developing countries is often poor or missing. And organizing fundraisers for these nonprofits can be expensive and time-consuming. This is where you can help! 
